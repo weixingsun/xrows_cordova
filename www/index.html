@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src &apos;self&apos; data: gap: https://ssl.gstatic.com &apos;unsafe-eval&apos;; style-src &apos;self&apos; &apos;unsafe-inline&apos;; media-src *; img-src &apos;self&apos; data: content:;">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-1.5.0.mobile.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<style>
+		/* For avoiding title truncation in wp8 */
+		.ui-header .ui-title {
+				overflow: visible !important;
+		}
+		/* For fixing the absolute position issue for the default cordova gen page*/
+		#cjp-accordion1 .app {
+				left: 5px !important;
+				margin: 5px !important;
+				position: relative !important;
+		}
+		</style>
+        <title>CSV Tool</title>
+    </head>
+    <body>
+		<div data-role="page" id="main">
+			<div data-role="header">
+				<div class="nav">
+				  <div class="fa fa-bars fa-2x" id="menu"></div>
+				  <div class="title">Main</div>
+				  <div class="fa fa-folder-o fa-2x" id="opener"></div>
+				</div>
+				
+			</div>
+			<div class="ui-content">
+				<div class="app">
+					<h1>Main page</h1>
+
+				</div>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#main" class="ui-btn-active ui-state-persist">Main</a></li>
+						<li><a href="#view">View</a></li>
+						<li><a href="#edit">Edit</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div data-role="page" id="view">
+			<div data-role="header">
+				<h1>View</h1>
+			</div>
+			<div class="ui-content">
+				<p>This is page view</p>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#main">Main</a></li>
+						<li><a href="#view" class="ui-btn-active ui-state-persist">View</a></li>
+						<li><a href="#edit">Edit</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div data-role="page" id="edit">
+			<div data-role="header">
+				<h1>Edit</h1>
+			</div>
+			<div class="ui-content">
+				<p>This is Editpage</p>
+			</div>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#main">Main</a></li>
+						<li><a href="#view">View</a></li>
+						<li><a href="#edit" class="ui-btn-active ui-state-persist">Edit</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="cordova.js"></script>
+		<!--<script type="text/javascript" src="js/jquery-1.11.1.min.js" id="cordova-jquery"></script>-->
+		<script type="text/javascript" src="js/jquery-2.2.4.min.js" id="cordova-jquery"></script>
+		<script type="text/javascript" src="js/alasql-0.3.4.min.js"  id="alasql"></script>
+		<script type="text/javascript" id="jqm-trans-disable">
+		/* For having a faster transition */
+		$(document).on("mobileinit", function() {
+				$.mobile.defaultPageTransition = "none";
+				$.mobile.defaultDialogTransition = "none";
+		});
+		</script>
+		<script type="text/javascript" src="js/jquery-1.5.0.mobile.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

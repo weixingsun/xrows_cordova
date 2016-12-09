@@ -1,0 +1,82 @@
+[
+  {
+    "file": "css/font-awesome.css",
+    "hash": "c223583b49df4d7e92389dc43dbd8e51"
+  },
+  {
+    "file": "css/font-awesome.min.css",
+    "hash": "008e0bb5ebfa7bc298a042f95944df25"
+  },
+  {
+    "file": "css/index.css",
+    "hash": "76b0f5f3f64d3c0a0d97afc0d72809ef"
+  },
+  {
+    "file": "css/jquery-1.5.0.mobile.min.css",
+    "hash": "d41c21b72568d3cc5f65181a0f2ced76"
+  },
+  {
+    "file": "fonts/fontawesome-webfont.eot",
+    "hash": "674f50d287a8c48dc19ba404d20fe713"
+  },
+  {
+    "file": "fonts/fontawesome-webfont.svg",
+    "hash": "912ec66d7572ff821749319396470bde"
+  },
+  {
+    "file": "fonts/fontawesome-webfont.ttf",
+    "hash": "b06871f281fee6b241d60582ae9369b9"
+  },
+  {
+    "file": "fonts/fontawesome-webfont.woff",
+    "hash": "fee66e712a8a08eef5805a46892932ad"
+  },
+  {
+    "file": "fonts/fontawesome-webfont.woff2",
+    "hash": "af7ae505a9eed503f8b8e6982036873e"
+  },
+  {
+    "file": "fonts/FontAwesome.otf",
+    "hash": "0d2717cd5d853e5c765ca032dfd41a4d"
+  },
+  {
+    "file": "img/logo.png",
+    "hash": "7e34c95ac701f8cd9f793586b9df2156"
+  },
+  {
+    "file": "index.html",
+    "hash": "04d924ffd6b3b7f1798f6e531b9e95be"
+  },
+  {
+    "file": "js/alasql-0.3.4.min.js",
+    "hash": "616186dccaacd3f29ba0c6195d2bcf84"
+  },
+  {
+    "file": "js/index.js",
+    "hash": "9245adfedfce8eba7f600f41c8041a5a"
+  },
+  {
+    "file": "js/jquery-1.11.1.min.js",
+    "hash": "d4a20d75db01a33e2d65e303ce5c34f3"
+  },
+  {
+    "file": "js/jquery-1.5.0.mobile.min.js",
+    "hash": "c9598986f728e57cb4635ab0bfc31ad2"
+  },
+  {
+    "file": "js/jquery-2.2.4.js",
+    "hash": "888d4551b8db7c41cda28d95e494f998"
+  },
+  {
+    "file": "js/jquery-2.2.4.min.js",
+    "hash": "2f6b11a7e914718e0290410e85366fe9"
+  },
+  {
+    "file": "js/jquery-3.1.1.min.js",
+    "hash": "e071abda8fe61194711cfc2ab99fe104"
+  },
+  {
+    "file": "js/jquery.mobile-1.4.5.js",
+    "hash": "a73d36219d6c3e89f51ad30fca3bdef0"
+  }
+]
