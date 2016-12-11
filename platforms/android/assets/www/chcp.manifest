@@ -16,10 +16,6 @@
     "hash": "d41c21b72568d3cc5f65181a0f2ced76"
   },
   {
-    "file": "css/jquery.mobile-1.4.5.js",
-    "hash": "a73d36219d6c3e89f51ad30fca3bdef0"
-  },
-  {
     "file": "fonts/fontawesome-webfont.eot",
     "hash": "674f50d287a8c48dc19ba404d20fe713"
   },
@@ -49,11 +45,19 @@
   },
   {
     "file": "index.html",
-    "hash": "4412dbcb1beff706a668da83b24fbe3b"
+    "hash": "f0cf246c513bfc96d01d50af4a691cb1"
+  },
+  {
+    "file": "js/alasql-0.3.4.min.js",
+    "hash": "616186dccaacd3f29ba0c6195d2bcf84"
+  },
+  {
+    "file": "js/alasql.fs.js",
+    "hash": "548a2403a1fa8064778a80d2c2b023b2"
   },
   {
     "file": "js/index.js",
-    "hash": "c33aea97d93e1f37cb7d745ff4d4fa74"
+    "hash": "7a4b9969b44c935f5ff872729b7b0b0c"
   },
   {
     "file": "js/jquery-1.11.1.min.js",
@@ -62,5 +66,21 @@
   {
     "file": "js/jquery-1.5.0.mobile.min.js",
     "hash": "c9598986f728e57cb4635ab0bfc31ad2"
+  },
+  {
+    "file": "js/jquery-2.2.4.js",
+    "hash": "888d4551b8db7c41cda28d95e494f998"
+  },
+  {
+    "file": "js/jquery-2.2.4.min.js",
+    "hash": "2f6b11a7e914718e0290410e85366fe9"
+  },
+  {
+    "file": "js/jquery-3.1.1.min.js",
+    "hash": "e071abda8fe61194711cfc2ab99fe104"
+  },
+  {
+    "file": "js/jquery.mobile-1.4.5.js",
+    "hash": "a73d36219d6c3e89f51ad30fca3bdef0"
   }
 ]

@@ -45,15 +45,19 @@
   },
   {
     "file": "index.html",
-    "hash": "04d924ffd6b3b7f1798f6e531b9e95be"
+    "hash": "f0cf246c513bfc96d01d50af4a691cb1"
   },
   {
     "file": "js/alasql-0.3.4.min.js",
     "hash": "616186dccaacd3f29ba0c6195d2bcf84"
   },
   {
+    "file": "js/alasql.fs.js",
+    "hash": "548a2403a1fa8064778a80d2c2b023b2"
+  },
+  {
     "file": "js/index.js",
-    "hash": "9245adfedfce8eba7f600f41c8041a5a"
+    "hash": "7a4b9969b44c935f5ff872729b7b0b0c"
   },
   {
     "file": "js/jquery-1.11.1.min.js",
