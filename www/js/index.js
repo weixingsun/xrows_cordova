@@ -35,19 +35,13 @@ var app = {
 		)
 	},
 	selectCount(csv){
-		/*
-		alasql.from.csv = function(filename,opts){
-			var self=this
-			$.get(filename,function(data){
-				alert('from csv ')
-				var arr = data.split(/\r?\n/);
-				var h = arr.shift().split(',');
-				return {rows:aaa,headers:h};
+		$.get(csv,function(data){
+			var sql = 'SELECT people,age,sex,region,word,count(1) '
+			         +'from csv(?,{headers:true,fromString:true}) '
+					 +'group by people,age,sex,region,word'
+			alasql(sql,[data],function(result){
+				alert('alasql.count(1) = '+JSON.stringify(result))
 			})
-		} */
-		console.log('index.js select_count() '+csv)
-		alasql('SELECT count(1) from csv("'+csv+'",{headers:true}) ',[],function(data){
-			console.log('alasql.select()'+JSON.stringify(data))
 		})
 	},
 };
