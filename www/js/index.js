@@ -4,13 +4,27 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
 		this.selectCount=this.selectCount.bind(this);
 		this.openFileChooser=this.openFileChooser.bind(this);
+		this.toggle=this.toggle.bind(this);
+		this.showMenu=this.showMenu.bind(this);
+		this.hideMenu=this.hideMenu.bind(this);
+		this.menu={
+			open:false,
+		}
     },
 
     // 'pause', 'resume', etc.
 	onDeviceReady() {
-		var opener1 = document.getElementById("opener");
-		opener1.addEventListener('click',this.openFileChooser,false);
+		var opener = document.getElementById("opener")
+		opener.addEventListener('click',this.openFileChooser,false);
 		this.receivedEvent('deviceready');
+		$(".showMenu").click(this.toggle);
+		//$("#menu, .pages").live("swipeleft",this.hideMenu);
+		//$("#.pages").live("swiperight",this.showMenu);
+		$("#menu li a").click(function () {
+			var p = $(this).parent();
+			p.siblings().removeClass('active');
+			p.addClass('active');
+		});
 	},
     // Update DOM on a Received Event
     receivedEvent(id) {
@@ -43,6 +57,28 @@ var app = {
 				alert('alasql.count(1) = '+JSON.stringify(result))
 			})
 		})
+	},
+	showMenu(){
+		if (this.menu.open) return;
+		$('#menu').show()
+		var self=this
+		//$.mobile.activePage.animate({marginLeft:200px},300,function(){
+			self.menu.open=true
+		//})
+	},
+	hideMenu(){
+		if (!this.menu.open) return;
+		var self=this
+		//$.mobile.activePage.animate({marginLeft:0px},300,function(){
+			self.menu.open=false
+			$('#menu').hide()
+		//})
+	},
+	toggle(){
+		if (!this.menu.open) this.showMenu()
+		else this.hideMenu()
+		alert('toggle')
+		return false
 	},
 };
 
